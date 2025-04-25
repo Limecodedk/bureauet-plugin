@@ -3,7 +3,7 @@
 * Plugin Name: Bureauet
 * Plugin URI: https://bureauet.dk/
 * Description: Support til websites.
-* Version: 1.0.4
+* Version: 1.0.5
 * Author: Bureauet
 * Requires PHP: 7.4
 * Requires at least: 6.0
