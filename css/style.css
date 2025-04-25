@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.wsw-header {
+  display: flex;
+}
+
+.wsw-logo {
+  object-fit: cover;
+    height: 90px;
+}
+
+.wsw-header-text{
+  margin: 0 auto;
+}
+
+.wp-setup-wizard {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 4px;
+  max-width: 900px;
+  margin: 20px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#wsw-themes {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 15px;
+}
+
+.wp-setup-wizard h1 {
+   font-family: "Montserrat", sans-serif;
+  font-weight:600;
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.wp-setup-wizard .wizard-section {
+  margin-bottom: 20px;
+}
+
+.wp-setup-wizard .wizard-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #555;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.wizard-section h2 {
+  background-color: #f3eded;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1) 
+}
+
+.wp-setup-wizard .checkbox-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wp-setup-wizard .checkbox-group label {
+  flex: 1 0 30%;
+  margin-bottom: 10px;
+}
+
+.wp-setup-wizard input[type="file"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.wp-setup-wizard .button-primary {
+  background: #1e325c;
+  color: #fff;
+  padding: 2px 7px;
+  border-radius: 3px;
+  font-size: 14px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  transition: background 0.2s ease;
+}
+
+.wp-setup-wizard .button-primary:hover {
+  background: #1e325c;
+}
+
+
+.wizard-section{
+  box-shadow:  0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1)
+}
+
+.wizard-section div,
+.wizard-section form { 
+padding: 10px;
+}
+
+
+.help-section {
+  padding: 10px;
+}
+
+
+.services-list{
+  border-bottom:1px solid #b9b9b9;
+}
+
+/* Home */
+.bureauet-dashboard-title {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.bureauet-dashboard-cards {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.bureauet-dashboard-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  width: 300px;
+}
+
+.bureauet-dashboard-card h2 {
+  font-size: 1.25rem;
+}
+
+.bureauet-card-button {
+  margin-top: 1rem;
+}
+
+/* Widget */
+.bureauet,
+.bureauet-widget-content {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.bureauet-widget-content h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.bureauet-widget-content p {
+  margin: 0 !important;
+}
+
+.bureauet-news-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.bureauet-news-list li {
+  margin-bottom: 8px;
+}
+
+.bureauet-news-list li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.bureauet-news-list li a:hover {
+  text-decoration: underline;
+}
+
+/* Styling for footeren */
+.bureauet-widget-footer {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.bureauet-widget-footer a {
+  text-decoration: none;
+  color: #1e325c;
+  display: inline-flex;
+  align-items: center;
+}
+
+.bureauet-widget-footer a .dashicons {
+  margin-right: 5px;
+  font-size: 18px;
+}
+
+
+/* Guide */
+.wp-tabs {
+  display: flex;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 15px;
+}
+.tab-button {
+  background: #f1f1f1;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 5px;
+}
+.tab-button.active {
+  background: #007cba;
+  color: white;
+  font-weight: bold;
+}
+.tab-content {
+  display: none;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.tab-content.active {
+  display: block;
+}
