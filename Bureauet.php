@@ -176,7 +176,7 @@ function wp_setup_wizard_guide_page() {
 require_once plugin_dir_path(__FILE__) . 'inc/github-updater.php';
 
 bureauet_register_github_updater([
-    'plugin_slug' => 'bureauet/bureauet.php',
+    'plugin_slug' => 'Bureauet/Bureauet.php',
     'slug'        => 'bureauet',
     'github_repo' => 'Limecodedk/bureauet-plugin'
 ]);
